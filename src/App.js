@@ -4,13 +4,13 @@ function App() {
     <div className="text-gray-900 overflow-x-hidden w-full">
        <header className="bg-red-900  text-white py-4 px-3 flex items-center justify-between w-full">
          <div className="w-10 h-10">
-           <img src="https://www.ngscholars.net/wp-content/uploads/2015/09/UNIUYO.jpg" alt="logo"/>
+           <img src="https://www.ngscholars.net/wp-content/uploads/2015/09/UNIUYO.jpg" alt="logo" />
          </div>
          <div className="px-1 py-2 items-center justify-center">
-           <p className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">About</p>
-           <p  classNpme="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Info</p>
-           <p  className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Register</p>
-           <p  className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Contact</p>
+           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">About</a>
+           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Info</a>
+           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Register</a>
+           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Contact</a>
          </div>
        </header>
        <p className="text-3xl mt-5 mx-10 text-center font-bolder">
@@ -36,7 +36,7 @@ function App() {
           <h2 className="text-center mt-3 text-red-900 font-bold"> OVERALL PERFORMANCE OF THE EMPLOYEES</h2>
           </div>
           <div className="w-full flex flex-col justify-center items-center p-2 shadow-lg bg-gray-200 my-5">
-            <div className="w-full flex items-center justify-center mb-3">
+            <div className="w-full flex mb-3">
               <div className="mr-5 mt-2">
                 <p><b>Employee Name :</b> Jane Doe</p>
                 <p><b>Acamedic Rank :</b> lecturer II</p>
@@ -71,7 +71,7 @@ function App() {
             </div>
           </div>
           <div className="w-full flex flex-col justify-center items-center p-2 shadow-lg bg-gray-200 my-5">
-            <div className="w-full flex items-center justify-center mb-3">
+            <div className="w-full flex  mb-3">
               <div className="mr-5 mt-2">
                 <p><b>Employee Name :</b> Akpan, Nseyo Ifiok</p>
                 <p><b>Acamedic Rank :</b> Senior Lecturer</p>
@@ -107,7 +107,7 @@ function App() {
                 
           </div>
           <div className="w-full flex flex-col justify-center items-center p-2 shadow-lg bg-gray-200 my-5">
-            <div className="w-full flex items-center justify-center mb-3">
+            <div className="w-full flex mb-3">
               <div className="mr-5 mt-2">
                 <p><b>Employee Name :</b> Esther Okon</p>
                 <p><b>Acamedic Rank :</b> lecturer I</p>
