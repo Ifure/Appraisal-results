@@ -7,10 +7,10 @@ function App() {
            <img src="https://www.ngscholars.net/wp-content/uploads/2015/09/UNIUYO.jpg" alt="logo" />
          </div>
          <div className="px-1 py-2 items-center justify-center">
-           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">About</a>
-           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Info</a>
-           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Register</a>
-           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Contact</a>
+           <span  className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">About</span>
+           <span  className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Info</span>
+           <span  className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Register</span>
+           <span className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Contact</span>
          </div>
        </header>
        <p className="text-3xl mt-5 mx-10 text-center font-bolder">
@@ -36,14 +36,14 @@ function App() {
           <h2 className="text-center mt-3 text-red-900 font-bold"> OVERALL PERFORMANCE OF THE EMPLOYEES</h2>
           </div>
           <div className="w-full flex flex-col justify-center items-center p-2 shadow-lg bg-gray-200 my-5">
-            <div className="w-full flex mb-3">
+            <div className="w-full flex mb-3 ">
               <div className="mr-5 mt-2">
                 <p><b>Employee Name :</b> Jane Doe</p>
                 <p><b>Acamedic Rank :</b> lecturer II</p>
                 <p><b>Rating :</b> 3.9</p>
               </div>
               <div className="ml-5 mt-2" >
-                <p><b>Department :</b> English</p>
+                <p><b>Department :</b> Business Administration</p>
                 <p><b>Years In Service :</b> 10</p>
                 <p><b>Status :</b> Promoted </p>
               </div>
@@ -114,7 +114,7 @@ function App() {
                 <p><b>Rating :</b> 1.7</p>
               </div>
               <div className="ml-5 mt-2" >
-                <p><b>Department :</b> English</p>
+                <p><b>Department :</b> Chemical Engineering</p>
                 <p><b>Years In Service :</b> 5</p>
                 <p><b>Status :</b>Not Promoted </p>
               </div>
