@@ -7,10 +7,10 @@ function App() {
            <img src="https://www.ngscholars.net/wp-content/uploads/2015/09/UNIUYO.jpg" alt="logo" />
          </div>
          <div className="px-1 py-2 items-center justify-center">
-           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">About</a>
-           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Info</a>
-           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Register</a>
-           <a href="#" className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Contact</a>
+           <p className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">About</p>
+           <p  classNpme="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Info</p>
+           <p  className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Register</p>
+           <p  className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">Contact</p>
          </div>
        </header>
        <p className="text-3xl mt-5 mx-10 text-center font-bolder">
