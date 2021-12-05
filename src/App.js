@@ -4,7 +4,7 @@ function App() {
     <div className="text-gray-900 overflow-x-hidden w-full">
        <header className="bg-red-900  text-white py-4 px-3 flex items-center justify-between w-full">
          <div className="w-10 h-10">
-           <img src="https://www.ngscholars.net/wp-content/uploads/2015/09/UNIUYO.jpg" alt="logo" />
+           <img src="https://www.ngscholars.net/wp-content/uploads/2015/09/UNIUYO.jpg" alt="logo"/>
          </div>
          <div className="px-1 py-2 items-center justify-center">
            <p className="p-3 font-bold  hover:bg-transparent hover:text-black hover:shadow-md">About</p>
